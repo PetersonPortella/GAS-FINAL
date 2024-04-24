@@ -1,0 +1,285 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background: #ffffff;
+}
+
+/* começo do head */
+
+.cabecalho{
+   width: 100%;
+   height: 100px;
+   background: #f03817;
+}
+
+.menu{
+   width: 50%;
+   float: right;
+   text-align: center;   
+   padding-top: 40px;
+   
+}
+
+.logo{
+   width: 40%;
+   float: left;  
+   padding-left: 15px;
+}
+
+.menu a:visited, a:link{
+   padding: 10px;
+   color: #000000;
+   text-decoration: none;
+
+ }
+
+.menu a:hover{
+   text-decoration: underline black;
+   text-underline-offset: 1cm;
+   text-decoration-thickness: 3px;
+ }
+
+ .clear{
+   clear: both;
+ }
+
+ /* final do head */
+
+ #container{
+   width: 80%;
+   margin: 0 auto;
+
+}  
+
+/* começo da primeira caixa */
+
+.caixa1{
+   height: 450px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 40px;
+} 
+
+.div1{
+   width: 600px;
+   font-size: 1.6em;
+}
+
+.div1 ul li{
+   list-style: none;
+   line-height: 50px;
+   border-radius: 25px;
+   
+}
+
+.div1 ul a{
+   color: #000000;
+   background: #f03817;
+   line-height: 50px;
+   border-radius: 25px;
+   padding: 10px 50px;
+}
+
+.div1 ul a:hover{
+   color: #ffffff;
+   background: black;
+  
+}
+
+.div2{
+   width:600px;
+   background: url(imagens/gas.webp) center no-repeat ;
+   background-size: 100%;
+}
+/* final da caixa 1 */
+
+/* começo da caixa 2 */
+
+.meio{
+   padding-top: 50px;
+   height: 450px;
+   background: #f03817;
+   text-align: center;
+   font-size: 1.6em;
+   color: #ffffff;
+   box-sizing: border-box;
+}
+
+.meio a{
+   color: white;
+   background: #000000;
+   padding: 5px 70px;
+   border-radius: 25px;
+   
+}
+
+.meio a:hover{
+   background: #ffffff;
+   color: #f03817;
+}
+
+/* final da caixa 2 */
+
+/* começo da caixa 3 */
+.caixa2{
+   height: 450px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.div3{
+   width: 900px;
+   background: url(imagens/cel.png) center no-repeat ;
+   background-size: 95%;
+   
+
+}
+
+.div4{
+   padding-top: 40px;
+   width: 600px;
+   font-size: 25px;
+}
+
+h1{
+   font-size: 30px;
+}
+
+.div4 ul li{
+   list-style: none;
+   line-height: 50px;
+   border-radius: 25px;
+   line-height: 40px;
+   
+}
+
+.div4 ul a{
+   color: #000000;
+   background: #f03817;
+   line-height: 50px;
+   border-radius: 25px;
+   padding: 10px 50px;
+}
+
+.div4 ul a:hover{
+   color: #ffffff;
+   background: black;
+}
+
+/* final da caixa 3 */
+
+
+/* começo da caixa 4 */
+
+.caixa3{
+   height: 450px;
+   display: flex;
+   justify-content: space-between;
+   background: #eeeeee ;
+   padding: 0 40px;
+   padding-top: 70px;
+   font-size: 1.3em;
+}
+
+.caixa3 h3{
+   font-size: 1.1em;
+   text-align: center;
+
+}
+
+.div5{
+   width: 300px;
+   padding-top: 40px;
+   
+}
+
+.div6{
+   width: 300px;
+   
+}
+
+.div6 ul li{
+   list-style: none;
+   padding: 5px 10px;
+   
+}
+
+.div6 ul a{
+   color: black;  
+}
+
+.div6 ul a:hover{
+   background: black;
+   border-radius: 25px;
+   color: white;
+   padding: 3px 20px;
+}
+
+.div7{
+   width: 320px;
+   
+}
+
+.div7 ul li{
+   list-style: none;
+   padding: 5px 10px;
+   
+}
+
+.div7 ul a{
+   color: black;  
+}
+
+.div7 ul a:hover{
+   background: black;
+   border-radius: 25px;
+   color: white;
+   padding: 3px 20px;
+
+}
+
+.div8{
+   width: 300px;
+   
+}
+
+.div8 ul li{
+   list-style: none;
+   padding: 5px 10px;
+   
+}
+
+.div8 ul a{
+   color: black;  
+}
+
+.div8 ul a:hover{
+   background: black;
+   border-radius: 25px;
+   color: white;
+   padding: 3px 20px;
+
+}
+
+/* final da caixa 4 */
+
+
+/* começo do rodape */
+.rodape{
+   padding-top: 50px;
+   height: 450px;
+   background: #f03817;
+   text-align: center;
+   font-size: 1.6em;
+   color: black;
+   box-sizing: border-box;
+}
+
+
+/* final do rodape */
