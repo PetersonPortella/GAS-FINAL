@@ -1,7 +1,7 @@
-
 *{
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 
 body{
@@ -14,41 +14,48 @@ body{
 .cabecalho{
    width: 100%;
    height: 100px;
-   background: #f03817;
+   background: #b9b8b8;
+   border: 2px solid #000000;
 }
 
 .menu{
-   width: 50%;
+   width: 60%;
    float: right;
-   text-align: center;   
-   padding-top: 40px;
+   font-size: 19px;
+   margin-top: 35px;
    
 }
 
-.logo{
-   width: 40%;
-   float: left;  
-   padding-left: 15px;
-}
-
-.menu a:visited, a:link{
-   padding: 10px;
+.menu a{
+   padding: 0 15px;
    color: #000000;
    text-decoration: none;
-
+   
  }
 
 .menu a:hover{
-   text-decoration: underline black;
-   text-underline-offset: 1cm;
-   text-decoration-thickness: 3px;
+   text-decoration: overline white;
+   text-decoration-thickness: 2px;
+   
  }
+
+ .logo{
+   width: 25%;
+   height: 100px;
+   background: url(imagens/super.png) center;
+   background-size: 100%;
+   float: left;  
+   margin-left: 25px;
+   
+}
 
  .clear{
    clear: both;
  }
 
  /* final do head */
+
+
 
  #container{
    width: 80%;
